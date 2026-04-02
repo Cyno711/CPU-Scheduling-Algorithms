@@ -38,7 +38,6 @@ int main()
     {
         bool executed = false;
 
-        // First check Queue 1 (Round Robin)
         for(int i = 0; i < n; i++)
         {
             if(q[i] == 1 && at[i] <= currentTime && rt[i] > 0)
